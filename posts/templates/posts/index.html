@@ -1,0 +1,10 @@
+{% if latest_post_list %}
+welcome
+    <ul>
+    {% for post in latest_post_list %}
+        <li><a href="/posts/{{ post.id }}/">{{ post.title_text }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No posts are available.</p>
+{% endif %}

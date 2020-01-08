@@ -15,7 +15,7 @@ class Title(models.Model):
 
 
 class Body(models.Model):
-    question = models.ForeignKey(Title, on_delete=models.CASCADE)
+    post = models.ForeignKey(Title, on_delete=models.CASCADE)
     body_text = models.CharField(max_length=500)
     likes = models.IntegerField(default=0)
 
