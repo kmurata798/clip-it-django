@@ -16,7 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 
+#Directs user to specific urls route based on the route inputted in the search bar.
+#include() redirects user to the NEXT urls.py
 urlpatterns = [
-    path('posts/', include('posts.urls')),
     path('admin/', admin.site.urls),
+    path('posts/', include('posts.urls')),
+    path('', include('blog.urls')),
 ]

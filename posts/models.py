@@ -3,6 +3,7 @@ from django.utils import timezone
 import datetime
 
 
+
 class Title(models.Model):
     title_text = models.CharField(max_length=200)
     pub_date = models.DateTimeField('date published')

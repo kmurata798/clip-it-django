@@ -1,6 +1,5 @@
 from django.shortcuts import render
-
-# Create your views here.
+from django.http import Http404
 from django.http import HttpResponse
 from django.template import loader
 
@@ -13,11 +12,30 @@ def index(request):
     return render(request, 'posts/index.html', context)
 
 def detail(request, post_id):
-    return HttpResponse("You're looking at question %s." % post_id)
+    try:
+        post = Title.objects.get(pk=post_id)
+    except Title.DoesNotExist:
+        raise Http404("Question does not exist")
+    return render(request, 'posts/detail.html', {'post': post})
 
 def results(request, post_id):
-    response = "You're looking at the results of question %s."
+    response = "You're looking at the results of post %s."
     return HttpResponse(response % post_id)
 
 def like(request, post_id):
-    return HttpResponse("You're voting on question %s." % post_id)
+    post = get_object_or_404(Title, pk=post_id)
+    try:
+        selected_choice = post.choice_set.get(pk=request.POST['body'])
+    except (KeyError, Choice.DoesNotExist):
+        # Redisplay the question voting form.
+        return render(request, 'polls/detail.html', {
+            'question': question,
+            'error_message': "You didn't select a choice.",
+        })
+    else:
+        selected_choice.votes += 1
+        selected_choice.save()
+        # Always return an HttpResponseRedirect after successfully dealing
+        # with POST data. This prevents data from being posted twice if a
+        # user hits the Back button.
+        return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
