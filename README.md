@@ -1,4 +1,4 @@
-![Clip-it-title] (https://github.com/kmurata798/clip-it-django/blob/master/blog/static/blog/clip-it-title.png?raw=true)
+![Image] (https://github.com/kmurata798/clip-it-django/blob/master/blog/static/blog/clip-it-title.png?raw=true)
 Clip-It is a website that allows gamers to create, read, update, and delete (CRUD) posts for whatever topic they choose.
 ------------------------------------
 # How to Run:
