@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import include, path
+from users import views as user_views
+#import views from users app
 
-#Directs user to specific urls route based on the route inputted in the search bar.
-#include() redirects user to the NEXT urls.py
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('register/', user_views.register, name='register'),
     path('posts/', include('posts.urls')),
     path('', include('blog.urls')),
 ]
