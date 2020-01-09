@@ -135,7 +135,7 @@ Something like:
 "The code in this project is licensed under MIT license."
 
 
-![Image] (https://raw.githubusercontent.com/kmurata798/clip-it-django/blob/master/blog/static/blog/clip-it-title.png)
+![Logo of the project] (https://github.com/kmurata798/clip-it-django/blob/master/blog/static/blog/clip-it-title.png)
 Clip-It is a website that allows gamers to create, read, update, and delete (CRUD) posts for whatever topic they choose.
 ------------------------------------
 # How to Run:
