@@ -1,5 +1,18 @@
+Clip-It is a website that allows gamers to create, read, update, and delete (CRUD) posts for whatever topic they choose.
+------------------------------------
+# How to Run:
+- Clone the repository using the green button on github
+- In your terminal, input: 
+```
+    $ git remote add origin https://github.com/kmurata798/clip-it-django.git
+    $ git push -u origin master
+```
+Don't include the `$`, this symbol indicates that you are writing in your terminal!
+
+
 # NitW_Merch
 ![Logo of the project](https://raw.githubusercontent.com/jehna/readme-best-practices/master/sample-logo.png)
+![Logo of the project](https://github.com/kmurata798/clip-it-django/blob/master/blog/static/blog/clip-it-title.png)
 ​
 # Name of the project
 > Additional information or tagline
@@ -135,14 +148,3 @@ Something like:
 "The code in this project is licensed under MIT license."
 
 
-![Logo of the project] (https://github.com/kmurata798/clip-it-django/blob/master/blog/static/blog/clip-it-title.png)
-Clip-It is a website that allows gamers to create, read, update, and delete (CRUD) posts for whatever topic they choose.
-------------------------------------
-# How to Run:
-- Clone the repository using the green button on github
-- In your terminal, input: 
-```
-    $ git remote add origin https://github.com/kmurata798/clip-it-django.git
-    $ git push -u origin master
-```
-Don't include the `$`, this symbol indicates that you are writing in your terminal!
