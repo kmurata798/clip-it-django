@@ -1,3 +1,4 @@
+![Logo of the project](https://github.com/kmurata798/clip-it-django/blob/master/blog/static/blog/clip-it-title.png)
 Clip-It is a website that allows gamers to create, read, update, and delete (CRUD) posts for whatever topic they choose.
 ------------------------------------
 # How to Run:
@@ -10,9 +11,8 @@ Clip-It is a website that allows gamers to create, read, update, and delete (CRU
 Don't include the `$`, this symbol indicates that you are writing in your terminal!
 
 
-# NitW_Merch
+<!-- # NitW_Merch
 ![Logo of the project](https://raw.githubusercontent.com/jehna/readme-best-practices/master/sample-logo.png)
-![Logo of the project](https://github.com/kmurata798/clip-it-django/blob/master/blog/static/blog/clip-it-title.png)
 ​
 # Name of the project
 > Additional information or tagline
@@ -145,6 +145,6 @@ One really important part: Give your project a proper license. Here you should
 state what the license is and how to find the text version of the license.
 Something like:
 ​
-"The code in this project is licensed under MIT license."
+"The code in this project is licensed under MIT license." -->
 
 
