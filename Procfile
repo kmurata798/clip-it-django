@@ -1,1 +1,1 @@
-web: gunicorn clipit.wsgi —-log-file -
+web: gunicorn clipit.wsgi
