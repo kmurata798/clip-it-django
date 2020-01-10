@@ -8,7 +8,7 @@ Clip-It is a website that allows gamers to create, read, update, and delete (CRU
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
 
-## Example
+# Example
 ## Example2
 ## Third Example
 ## [Fourth Example](http://www.fourthexample.com)
