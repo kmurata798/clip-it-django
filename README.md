@@ -1,6 +1,17 @@
 ![Logo of the project](https://github.com/kmurata798/clip-it-django/blob/master/blog/static/blog/clip-it-title.png)
 Clip-It is a website that allows gamers to create, read, update, and delete (CRUD) posts for whatever topic they choose.
 ------------------------------------
+# Table of Contents
+1. [Example](#example)
+2. [Example2](#example2)
+3. [Third Example](#third-example)
+4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+
+
+## Example
+## Example2
+## Third Example
+## [Fourth Example](http://www.fourthexample.com)
 # How to Run:
 - Clone the repository using the green button on github
 - In your terminal, input: 
